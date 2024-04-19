@@ -1,0 +1,68 @@
+body{
+	margin: 0px;
+	
+}
+
+.container{
+	border: 2px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: fit-content;
+	margin: auto;
+	margin-top: 20px;
+
+	
+}
+
+.heading{
+	width : 100%;
+	background-color: cornflowerblue;
+	margin-top: -25px;
+}
+h1{
+	color: aliceblue;
+	text-align: center;
+	font-weight: 900;
+	
+}
+.grid{
+	display: flex;
+}
+
+.grid-change{
+	margin: auto;
+	background-color: rgb(134, 48, 120);
+	width: 30%;
+	height: 50px;
+}
+
+.grid-reset{
+	margin: auto;
+	background-color: rgb(13, 36, 8);
+	width: 30%;
+	height: 50px;
+	color: antiquewhite;
+	
+}
+
+.grid-change p,
+.grid-reset p{
+	text-align: center;
+	line-height: 40px;
+	color: antiquewhite;
+}
+
+.new{
+	display: flex;
+	margin: 10px;
+}
+
+.cell{
+	border: 2px solid rgb(180, 151, 151);
+	margin: 5px;
+	height: 15px;
+	width: 15px;
+	
+}
+
